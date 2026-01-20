@@ -10,7 +10,7 @@ def client_thread(con):
     con.close()
 
 server = socket.socket()
-hostname = "192.168.0.107"
+hostname = "192.168.0.255"
 port = 5000
 server.bind((hostname, port))
 server.listen(5)

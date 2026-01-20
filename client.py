@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket()
-hostname = "192.168.0.107"
+hostname = "192.168.0.255"
 port = 5000
 client.connect((hostname, port))
 message = input(": ")
